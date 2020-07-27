@@ -1,0 +1,82 @@
+body {
+    margin: auto;
+    padding: 0px;
+    height: auto;
+    font-family: Arial, serif;
+}
+
+.align-items-center {
+    -ms-flex-align: center!important;
+    align-items: center!important;
+}
+.d-flex {
+    display: -ms-flexbox!important;
+    display: flex!important;
+}
+
+#logo-text{
+    font-size: larger;
+    font-weight: bolder;
+    color: black;
+}
+
+.account-btn{
+    margin-left: 10px;
+    color: #4e555b;
+}
+
+.nav-link{
+    margin-left: 30px;
+}
+
+#info{
+    margin: 15px 0px;
+}
+
+.card{
+    margin-bottom: 20px;
+}
+
+#footer{
+    margin-top: 30px;
+}
+
+#signup-button-pro{
+    background: white;
+}
+
+#signup-button-pro:hover{
+    color: #2073d6;
+}
+
+#footer{
+    background: #fbf6fb;
+}
+
+.footer-link-text{
+    color: #5a6268;
+}
+
+.footer-link-text:hover{
+    color: orange;
+    transition: all 0.4s;
+}
+
+#content{
+    margin: 15px;
+}
+
+.info-title{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.card-info{
+    margin: 15px;
+}
+
+.card-icon{
+    width: 65px;
+    height: 45px;
+    margin: 10px;
+}
