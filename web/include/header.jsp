@@ -1,4 +1,5 @@
-<%@ page import="libs.Utils" %><%--
+<%@ page import="libs.Utils" %>
+<%@ page import="backend.model.Account" %><%--
   Created by IntelliJ IDEA.
   User: LeVu
   Date: 7/26/2020
@@ -45,10 +46,18 @@
             </ul>
         </div>
 
+        <%Account acc = (Account) request.getSession().getAttribute("account");%>
+        <%if (acc == null) {%>
         <div id="account-section">
             <a style="text-decoration: none" class="account-btn btn btn-link" id="sign-in"
                href="<%=Utils.fullPath("frontend/html/login.jsp")%>">Đăng nhập</a>
             <a style="text-decoration: none" class="account-btn btn btn-primary" id="sign-up" href="#">Đăng ký</a>
         </div>
+        <%} else {%>
+        <div id="account-section">
+            <span >Xin chào, <%=acc.getUsername()%></span>
+            <a style="text-decoration: none" class="account-btn btn btn-link" href="<%=Utils.fullPath("frontend/html/Login")%>?action=logout">Đăng xuất</a>
+        </div>
+        <%}%>
     </nav>
 </div>

@@ -35,7 +35,7 @@ public class Login extends HttpServlet {
                 System.out.println(account.getUsername());
                 HttpSession ss = request.getSession();
                 ss.setAttribute("account", account);
-                response.sendRedirect(Utils.fullPath("frontend/html/index.html"));
+                response.sendRedirect(Utils.fullPath("index.jsp"));
                 System.out.println("ok");
             } else {
                 String err = "Sai thông tin đăng nhập";
@@ -45,7 +45,7 @@ public class Login extends HttpServlet {
         } else if (action.equals("logout")) {
             HttpSession ss = request.getSession();
             ss.removeAttribute("account");
-            response.sendRedirect(Utils.fullPath("frontend/html/index.html"));
+            response.sendRedirect(Utils.fullPath("index.jsp"));
         }
 
     }

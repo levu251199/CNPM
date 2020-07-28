@@ -16,6 +16,10 @@
 <body>
 <div class="container">
     <div id="login-wrap">
+        <%String err = (String) request.getAttribute("err");%>
+        <%if (err != null) {%>
+        <span style="color: red;"><%=err%></span>
+        <%}%>
         <!-- Image -->
         <div id="img-section">
             <a id="anchor-img">
