@@ -43,6 +43,13 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
   </component>
+  <component name="WebContextManager">
+    <option name="state">
+      <map>
+        <entry key="file://$PROJECT_DIR$/web/frontend/html/login.jsp" value="file://$PROJECT_DIR$/web/frontend/html" />
+      </map>
+    </option>
+  </component>
   <component name="libraryTable">
     <library name="lib">
       <CLASSES>
