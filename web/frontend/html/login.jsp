@@ -35,7 +35,7 @@
             </div>
             <div id="pass-section">
                 <label class="icon" for="pass-input"><i class="fas fa-key fa-lg" style="color:#7abaff"></i></label>
-                <input class="input" type="text" id="pass-input" name="pass-input" placeholder="Mật khẩu">
+                <input class="input" type="password" id="pass-input" name="pass-input" placeholder="Mật khẩu">
             </div>
             <div id="confirm-section">
                 <input type="checkbox" name="status" id="status">
@@ -45,7 +45,7 @@
                 <button type="submit" id="login-button">Đăng nhập</button>
             </div>
             <div class="button">
-                <a href="<%=Utils.fullPath("index.jsp")%>" id="back-button">
+                <a href="<%=Utils.fullPath("index.jsp")%>" id="back-button" style="text-decoration: none">
                     <i class="fa fa-arrow-left" aria-hidden="true"></i>
                     &nbsp; Trở về trang chủ
                 </a>

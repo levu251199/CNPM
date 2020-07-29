@@ -1,9 +1,9 @@
 package backend.model;
 
 public class Account {
-    String username;
-    String pass;
-    int admin;
+    public String username;
+    public String pass;
+    public int admin;
 
     public Account() {
 
