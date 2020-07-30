@@ -1,9 +1,18 @@
 body{
     margin: auto;
-    padding: 0px;
+    padding: 0;
     background: linear-gradient(to bottom right, cyan, mediumpurple) no-repeat fixed;
     height: auto;
     font-family: Arial, serif;
+}
+
+.align-items-center {
+    -ms-flex-align: center!important;
+    align-items: center!important;
+}
+.d-flex {
+    display: -ms-flexbox!important;
+    display: flex!important;
 }
 
 #login-wrap{
@@ -61,6 +70,40 @@ body{
     animation: animate 8s linear infinite;
 }
 
+.section-break{
+    color: lightgrey;
+}
+
+.social-section{
+}
+
+.social-button{
+    width: 250px;
+    height: 40px;
+    border: none;
+    border-radius: 15px;
+    font-size: 16px;
+    margin: 10px;
+    color: white;
+}
+
+#fb-button{
+    background: #03a9f4;
+}
+
+#fb-button:hover{
+    background:#0f6674;
+    transition: all 0.4s;
+}
+
+#gg-button{
+    background: firebrick;
+}
+#gg-button:hover{
+    background: #721c24;
+    transition: all 0.4s;
+}
+
 @keyframes animate {
     0% {
         background-position: 0%;
@@ -68,4 +111,40 @@ body{
     100% {
         background-position: 400%;
     }
+}
+/* Validate */
+#username-validate, #pass-validate{
+    display:none;
+    color: #000;
+    position: relative;
+    padding: 5px;
+    margin-top: 10px;
+}
+#username-validate p, #pass-validate p{
+    padding: 10px 35px;
+    font-size: 15px;
+}
+
+/* Add a green text color and a checkmark when the requirements are right */
+.valid {
+    color: #16d373;
+    transition: all 0.5s;
+}
+
+.valid:before {
+    position: relative;
+    left: -35px;
+    content: "✔";
+}
+
+/* Add a red text color and an "x" when the requirements are wrong */
+.invalid {
+    color: crimson;
+    transition: all 0.5s;
+}
+
+.invalid:before {
+    position: relative;
+    left: -35px;
+    content: "✖";
 }

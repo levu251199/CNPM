@@ -24,11 +24,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b386027-85b8-4c17-b7e0-461fd183e359" name="Default Changelist" comment="Fix some minor stuffs">
-      <change beforePath="$PROJECT_DIR$/LearnMath.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/LearnMath.ipr" afterDir="false" />
+    <list default="true" id="3b386027-85b8-4c17-b7e0-461fd183e359" name="Default Changelist" comment="Validate and fix some bugs">
       <change beforePath="$PROJECT_DIR$/LearnMath.iws" beforeDir="false" afterPath="$PROJECT_DIR$/LearnMath.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/frontend/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/frontend/css/login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/frontend/html/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/frontend/html/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/LearnMath_war_exploded/frontend/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LearnMath_war_exploded/frontend/css/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/LearnMath_war_exploded/frontend/html/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LearnMath_war_exploded/frontend/html/login.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,17 +89,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TOMCAT" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.56" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/LearnMath/" />
       <option name="UPDATING_POLICY" value="redeploy-artifacts" />
@@ -200,7 +188,8 @@
       <workItem from="1596025128488" duration="5298000" />
       <workItem from="1596034851254" duration="248000" />
       <workItem from="1596035440219" duration="755000" />
-      <workItem from="1596039587909" duration="8946000" />
+      <workItem from="1596039587909" duration="11809000" />
+      <workItem from="1596088386141" duration="1239000" />
     </task>
     <task id="LOCAL-00001" summary="Fix some minor stuffs">
       <created>1596036362382</created>
@@ -209,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596036362383</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Validate and fix some bugs">
+      <created>1596054272425</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1596054272425</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,7 +225,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Fix some minor stuffs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix some minor stuffs" />
+    <MESSAGE value="Validate and fix some bugs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Validate and fix some bugs" />
   </component>
   <component name="WindowStateProjectService">
     <state x="163" y="0" key="#Project_Structure" timestamp="1595654873611">
@@ -268,62 +265,62 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="389" y="110" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1595945662693" />
-    <state width="1275" height="2" key="GridCell.Tab.0.bottom" timestamp="1596053065975">
+    <state width="1275" height="2" key="GridCell.Tab.0.bottom" timestamp="1596077369344">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1275" height="2" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1596053065975" />
-    <state width="1275" height="2" key="GridCell.Tab.0.center" timestamp="1596053065975">
+    <state width="1275" height="2" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1596077369344" />
+    <state width="1275" height="2" key="GridCell.Tab.0.center" timestamp="1596077369344">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1275" height="2" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1596053065975" />
-    <state width="1275" height="2" key="GridCell.Tab.0.left" timestamp="1596053065974">
+    <state width="1275" height="2" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1596077369344" />
+    <state width="1275" height="2" key="GridCell.Tab.0.left" timestamp="1596077369343">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1275" height="2" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1596053065974" />
-    <state width="1275" height="2" key="GridCell.Tab.0.right" timestamp="1596053065975">
+    <state width="1275" height="2" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1596077369343" />
+    <state width="1275" height="2" key="GridCell.Tab.0.right" timestamp="1596077369344">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1275" height="2" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1596053065975" />
-    <state width="1275" height="2" key="GridCell.Tab.1.bottom" timestamp="1596053065808">
+    <state width="1275" height="2" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1596077369344" />
+    <state width="1275" height="2" key="GridCell.Tab.1.bottom" timestamp="1596077369345">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1275" height="2" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1596053065808" />
-    <state width="1275" height="2" key="GridCell.Tab.1.center" timestamp="1596053065808">
+    <state width="1275" height="2" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1596077369345" />
+    <state width="1275" height="2" key="GridCell.Tab.1.center" timestamp="1596077369345">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1275" height="2" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1596053065808" />
-    <state width="1275" height="2" key="GridCell.Tab.1.left" timestamp="1596053065808">
+    <state width="1275" height="2" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1596077369345" />
+    <state width="1275" height="2" key="GridCell.Tab.1.left" timestamp="1596077369345">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1275" height="2" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1596053065808" />
-    <state width="1275" height="2" key="GridCell.Tab.1.right" timestamp="1596053065808">
+    <state width="1275" height="2" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1596077369345" />
+    <state width="1275" height="2" key="GridCell.Tab.1.right" timestamp="1596077369345">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1275" height="2" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1596053065808" />
-    <state width="1275" height="2" key="GridCell.Tab.2.bottom" timestamp="1596053065808">
+    <state width="1275" height="2" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1596077369345" />
+    <state width="1275" height="2" key="GridCell.Tab.2.bottom" timestamp="1596077369344">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1275" height="2" key="GridCell.Tab.2.bottom/0.0.1366.738@0.0.1366.738" timestamp="1596053065808" />
-    <state width="1275" height="2" key="GridCell.Tab.2.center" timestamp="1596053065808">
+    <state width="1275" height="2" key="GridCell.Tab.2.bottom/0.0.1366.738@0.0.1366.738" timestamp="1596077369344" />
+    <state width="1275" height="2" key="GridCell.Tab.2.center" timestamp="1596077369344">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1275" height="2" key="GridCell.Tab.2.center/0.0.1366.738@0.0.1366.738" timestamp="1596053065808" />
-    <state width="1275" height="2" key="GridCell.Tab.2.left" timestamp="1596053065808">
+    <state width="1275" height="2" key="GridCell.Tab.2.center/0.0.1366.738@0.0.1366.738" timestamp="1596077369344" />
+    <state width="1275" height="2" key="GridCell.Tab.2.left" timestamp="1596077369344">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1275" height="2" key="GridCell.Tab.2.left/0.0.1366.738@0.0.1366.738" timestamp="1596053065808" />
-    <state width="1275" height="2" key="GridCell.Tab.2.right" timestamp="1596053065808">
+    <state width="1275" height="2" key="GridCell.Tab.2.left/0.0.1366.738@0.0.1366.738" timestamp="1596077369344" />
+    <state width="1275" height="2" key="GridCell.Tab.2.right" timestamp="1596077369344">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1275" height="2" key="GridCell.Tab.2.right/0.0.1366.738@0.0.1366.738" timestamp="1596053065808" />
+    <state width="1275" height="2" key="GridCell.Tab.2.right/0.0.1366.738@0.0.1366.738" timestamp="1596077369344" />
     <state x="116" y="0" key="SettingsEditor" timestamp="1595945685069">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="116" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1595945685069" />
-    <state x="275" y="101" key="Vcs.Push.Dialog.v2" timestamp="1596036371737">
+    <state x="275" y="101" key="Vcs.Push.Dialog.v2" timestamp="1596054278789">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="275" y="101" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1596036371737" />
+    <state x="275" y="101" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1596054278789" />
     <state x="391" y="0" width="583" height="738" key="find.popup" timestamp="1596049457340">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
