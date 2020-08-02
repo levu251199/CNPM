@@ -112,6 +112,7 @@ body{
         background-position: 400%;
     }
 }
+
 /* Validate */
 #username-validate, #pass-validate{
     display:none;
