@@ -1,3 +1,4 @@
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ page import="libs.Utils" %>
 <%@ page import="backend.model.Account" %><%--
   Created by IntelliJ IDEA.
@@ -12,7 +13,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div id="logo-section">
             <a id="logo" href="#" style="text-decoration: none">
-                <img alt="Logo" src="<%=Utils.fullPath("frontend/img/logo.png")%>" width="50" height="50">
+                <img alt="Logo" src="../frontend/img/logo.png" width="50" height="50">
                 <span id="logo-text">LearnMath</span>
             </a>
         </div>
@@ -47,16 +48,17 @@
         </div>
 
         <%Account acc = (Account) request.getSession().getAttribute("account");%>
-        <%if (acc == null) {%>
+        <%if (acc == null) { %>
         <div id="account-section">
-            <a style="text-decoration: none" class="account-btn btn btn-link" id="sign-in"
-               href="<%=Utils.fullPath("frontend/html/login.jsp")%>">Đăng nhập</a>
-            <a style="text-decoration: none" class="account-btn btn btn-primary" id="sign-up" href="#">Đăng ký</a>
+                <a style="text-decoration: none" class="account-btn btn btn-link" id="sign-in"
+                   href="frontend/html/Login">Đăng nhập</a>
+            <a style="text-decoration: none" class="account-btn btn btn-primary" id="sign-up" href="<c:url value="/frontend/html/register.jsp"/>">Đăng ký</a>
         </div>
         <%} else {%>
         <div id="account-section">
-            <span >Xin chào, <%=acc.getUsername()%></span>
-            <a style="text-decoration: none" class="account-btn btn btn-link" href="<%=Utils.fullPath("frontend/html/Login")%>?action=logout">Đăng xuất</a>
+            <span>Xin chào, <%=acc.getUsername()%></span>
+            <a style="text-decoration: none" class="account-btn btn btn-link"
+               href="frontend/html/Login?action=logout">Đăng xuất</a>
         </div>
         <%}%>
     </nav>
