@@ -14,7 +14,7 @@ import java.util.Random;
 
 @WebServlet("/frontend/html/Login")
 public class Login extends HttpServlet {
-    int count = 0;
+    int count = 0; // Biến count để đến số lần đăng nhập fail
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         request.setCharacterEncoding("UTF-8");
         response.setCharacterEncoding("UTF-8");
@@ -26,6 +26,7 @@ public class Login extends HttpServlet {
         request.setCharacterEncoding("UTF-8");
         response.setCharacterEncoding("UTF-8");
         response.setContentType("text/html;charset=UTF-8");
+        // Các biến lấy data từ phía jsp
         String username = request.getParameter("id-input");
         String pass = request.getParameter("pass-input");
         String action = request.getParameter("action");
@@ -34,31 +35,31 @@ public class Login extends HttpServlet {
         String error = null;
         Random rd = new Random();
         HttpSession ss = request.getSession();
-        Account account;
+        Account account; // Biến để điều hướng trang web
         try {
-            if (action.equals("login")) {
-                if ((account = LoginDAO.checkLogin(username, pass)) != null) {
-                    if(recaptcha == null) {
+            if (action.equals("login")) { // Đăng nhập
+                if ((account = LoginDAO.checkLogin(username, pass)) != null) { // Kiểm tra đăng nhập
+                    if(recaptcha == null) { // Đăng nhập thành công lần đầu tiên
                         ss.setAttribute("account", account);
                         response.sendRedirect("/index.jsp");
                         System.out.print("Success");
-                    } else if(captcha.equals(recaptcha)){
+                    } else if(captcha.equals(recaptcha)){ // Đăng nhập thành công với captcha
                         ss.setAttribute("account", account);
                         response.sendRedirect("/index.jsp");
                         System.out.print("Success captcha");
-                    } else {
+                    } else { // Đăng nhập k thành công + reset captcha
                         error = ""+ rd.nextInt(100000);
                         ss.setAttribute("error", error);
 //                        request.getRequestDispatcher("login.jsp").forward(request, response);
                         response.sendRedirect("login.jsp");
                         System.out.print("Fail");
                     }
-                } else {
+                } else { // Đăng nhập không thành công
 //                    String err = "Sai thông tin đăng nhập!";
 //                    request.setAttribute("err", err);
 //                    request.getRequestDispatcher("login.jsp").forward(request, response);
                     count++;
-                    if(count<3){
+                    if(count<3){ // Sai 3 lần thì hiện captcha
                         error = "Tên đăng nhập sai hoặc mật khẩu không đúng";
                         ss.setAttribute("error", error);
                     } else {
@@ -68,11 +69,11 @@ public class Login extends HttpServlet {
 //                    request.getRequestDispatcher("login.jsp").forward(request, response);
                     response.sendRedirect("login.jsp");
                 }
-            } else if (action.equals("logout")) {
+            } else if (action.equals("logout")) { // Đăng xuất
                 ss.removeAttribute("account");
                 response.sendRedirect("/index.jsp");
             }
-        } catch (NullPointerException e) {
+        } catch (NullPointerException e) { // Xử lí lỗi chuyển đến trang đăng nhập khi chưa có thôn tin đăng nhập
             response.sendRedirect("login.jsp");
         }
     }

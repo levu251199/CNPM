@@ -8,16 +8,17 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<!-- Header -->
+
 <div id="header">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <!-- Logo -->
         <div id="logo-section">
             <a id="logo" href="#" style="text-decoration: none">
                 <img alt="Logo" src="../frontend/img/logo.png" width="50" height="50">
                 <span id="logo-text">LearnMath</span>
             </a>
         </div>
-
+        <!-- Navigation button -->
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
@@ -46,13 +47,14 @@
                 </li>
             </ul>
         </div>
-
+        <!-- Login + SignUp -->
         <%Account acc = (Account) request.getSession().getAttribute("account");%>
         <%if (acc == null) { %>
         <div id="account-section">
-                <a style="text-decoration: none" class="account-btn btn btn-link" id="sign-in"
-                   href="frontend/html/Login">Đăng nhập</a>
-            <a style="text-decoration: none" class="account-btn btn btn-primary" id="sign-up" href="<c:url value="/frontend/html/register.jsp"/>">Đăng ký</a>
+            <a style="text-decoration: none" class="account-btn btn btn-link" id="sign-in"
+               href="frontend/html/Login">Đăng nhập</a>
+            <a style="text-decoration: none" class="account-btn btn btn-primary" id="sign-up"
+               href="<c:url value="/frontend/html/register.jsp"/>">Đăng ký</a>
         </div>
         <%} else {%>
         <div id="account-section">

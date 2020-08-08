@@ -29,6 +29,7 @@
     <jsp:include page="include/header.jsp"></jsp:include>
 
     <!-- Content -->
+    <!-- Section 1 -->
     <div id="content">
         <div class="card text-center bg-light">
             <div class="card-body row" style="background: #d6edf6">
@@ -44,7 +45,7 @@
                 </div>
             </div>
         </div>
-
+        <!-- Section 2 -->
         <div id="info" style="text-align: center">
             <div class="info-title">Đến với LearnMath bạn sẽ nhận được</div>
             <div id="info-card" class="row">
@@ -78,7 +79,7 @@
                 </div>
             </div>
         </div>
-
+        <!-- Section 3 (table cứng chỉ để trình bày k có database)-->
         <h5 style="margin-top: 20px">Top các môn học được yêu thích nhất</h5>
         <div class="row" style="background: #fcf4cf; margin: 25px 1px">
             <table class="table table-striped col-7">
@@ -126,7 +127,7 @@
 
             <img class="col" src="frontend/img/banner-5.png" alt="work">
         </div>
-
+        <!-- Section 4 -->
         <div style="text-align: center">
             <div class="info-title">Các giảng viên hàn đầu dạy tại LearnMath</div>
             <h4 style="color: grey; margin: 20px">Với hơn 6000+ giờ dạy <br> hàng ngàn học sinh theo học</h4>

@@ -103,6 +103,7 @@
                 <label for="status" id="status-text">Duy trì đăng nhập</label>
             </div>
 
+            <!-- Captcha -->
             <%
                 String error = (String) request.getSession().getAttribute("error");
                 if (error != null && error.equals("Tên đăng nhập sai hoặc mật khẩu không đúng")) {
@@ -126,13 +127,14 @@
                 </div>
             </div>
             <%}%>
+            <!-- Login button -->
             <div class="button">
                 <button type="submit" id="login-button">Đăng nhập</button>
             </div>
 
-            <!-- Login with social media -->
             <div class="section-break">---------- Hoặc ----------</div>
         </form>
+            <!-- Login with social media -->
         <div class="social-section">
             <a href="https://www.facebook.com/dialog/oauth?client_id=770462907055597&redirect_uri=https://learnmath.j.layershift.co.uk/fb-login"
                class="button">
