@@ -1,0 +1,105 @@
+body{
+    margin: auto;
+    padding: 0;
+    background: linear-gradient(to bottom right, cyan, mediumpurple) no-repeat fixed;
+    height: auto;
+    font-family: Arial, serif;
+
+}
+#register-form{
+    width: 60%;
+    margin-left: auto;
+}
+
+.align-items-center {
+    -ms-flex-align: center !important;
+    align-items: center!important;
+}
+.d-flex {
+    display: -ms-flexbox!important;
+    display: flex!important;
+}
+#register-wrap {
+    background: white;
+    border-radius: 30px;
+   margin-left: auto;
+    /*margin: 20px 150px;*/
+    padding: 55px;
+}
+
+
+#name-section, #date-section, #sex-section, #class-section, #school-section, #phone-section, #mail-section
+{
+    background: whitesmoke;
+    margin: 5px;
+    border-radius: 10px;
+    padding: 7px;
+    width: 50%;
+}
+#name-validate, #school-validate, #phone-validate, #email-validate{
+    display:none;
+    color: #000;
+    position: relative;
+    padding: 5px;
+    margin-top: 10px;
+}
+#name-validate p, #school-validate p, #phone-validate p, #email-validate p{
+    padding: 10px 35px;
+    font-size: 15px;
+}
+#title{
+    font-size: 30px;
+    font-weight: bold;
+}
+#status-text{
+    color: #787878;
+    font-size: 16px;
+    margin: 10px;
+}
+#register-button{
+    border: none;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 10px 135px;
+    color: white;
+    font-size: 16px;
+    background: linear-gradient(90deg, #03a9f4, #f441a4, #ffeb4b, #03a9f4);
+    background-size: 400%;
+}
+#register-button:hover{
+    animation: animate 8s linear infinite;
+}
+@keyframes animate {
+    0% {
+        background-position: 0%;
+    }
+    100% {
+        background-position: 400%;
+    }
+}
+
+
+
+
+.valid {
+    color: #16d373;
+    transition: all 0.5s;
+}
+
+.valid:before {
+    position: relative;
+    left: -35px;
+    content: "✔";
+}
+
+/* Add a red text color and an "x" when the requirements are wrong */
+.invalid {
+    color: crimson;
+    transition: all 0.5s;
+}
+
+.invalid:before {
+    position: relative;
+    left: -35px;
+    content: "✖";
+}
