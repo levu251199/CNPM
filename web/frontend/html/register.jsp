@@ -103,7 +103,7 @@
                     <input class="input" type="text" id="mail-input" name="mail-input" placeholder="Email">
                     <div id="email-validate" style="text-align: left;">
                         <p id="blank-mail" class="invalid">Email không được bỏ trống<</p>
-                        <p id="check-mail" class="invalid"> Email phải theo dạng <b>abc_123@xyz.com</b></p>
+                        <p id="check-mail" class="invalid"> Email phải theo dạng <b>abc_1234@xyz.com</b></p>
                     </div>
                 </div>
                 <div class="button">
