@@ -218,7 +218,7 @@ function checkEmail() {
 
         }
 }
-//--------------------------------------------------------------------------------------------------
+//-------------------------------------------------------------------------------------------------
 function buttonRegister() {
     var name = document.getElementById("name-input")
     var school = document.getElementById("school-input")
@@ -241,7 +241,6 @@ function checkVerification() {
             alert("Chưa nhập mã xác nhận")
         } else {
             location.href = "http://localhost:8080/LearnMath/frontend/html/ChangePassword.jsp"
-            //http://localhost:8080/LearnMath/frontend/html/Verification.jsp
         }
     }
     //-----------------------------------------------------------------------------------------------

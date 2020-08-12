@@ -25,7 +25,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../Libraries/mysql-connector-java-5.1.49/mysql-connector-java-5.1.49/mysql-connector-java-5.1.49.jar!/" />
+          <root url="jar://$USER_HOME$/Libraries/mysql-connector-java-5.1.49/mysql-connector-java-5.1.49/mysql-connector-java-5.1.49.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -35,7 +35,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../Libraries/lib/restfb-2.3.0.jar!/" />
+          <root url="jar://$USER_HOME$/Libraries/lib/restfb-2.3.0.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -44,7 +44,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../Libraries/lib/httpcore-4.4.9.jar!/" />
+          <root url="jar://$USER_HOME$/Libraries/lib/httpcore-4.4.9.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -53,7 +53,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../Libraries/lib/httpclient-4.5.5.jar!/" />
+          <root url="jar://$USER_HOME$/Libraries/lib/httpclient-4.5.5.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -62,7 +62,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../Libraries/lib/gson-2.8.2.jar!/" />
+          <root url="jar://$USER_HOME$/Libraries/lib/gson-2.8.2.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -71,7 +71,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../Libraries/lib/fluent-hc-4.5.5.jar!/" />
+          <root url="jar://$USER_HOME$/Libraries/lib/fluent-hc-4.5.5.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -80,7 +80,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../Libraries/lib/commons-logging-1.2.jar!/" />
+          <root url="jar://$USER_HOME$/Libraries/lib/commons-logging-1.2.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -89,7 +89,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../Libraries/AccessGoogle-lib/httpcore-4.4.9.jar!/" />
+          <root url="jar://$USER_HOME$/Libraries/AccessGoogle-lib/httpcore-4.4.9.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -98,7 +98,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../Libraries/AccessGoogle-lib/httpclient-4.5.5.jar!/" />
+          <root url="jar://$USER_HOME$/Libraries/AccessGoogle-lib/httpclient-4.5.5.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -107,7 +107,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../Libraries/AccessGoogle-lib/gson-2.8.2.jar!/" />
+          <root url="jar://$USER_HOME$/Libraries/AccessGoogle-lib/gson-2.8.2.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -116,7 +116,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../Libraries/AccessGoogle-lib/fluent-hc-4.5.5.jar!/" />
+          <root url="jar://$USER_HOME$/Libraries/AccessGoogle-lib/fluent-hc-4.5.5.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -125,7 +125,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../Libraries/AccessGoogle-lib/commons-logging-1.2.jar!/" />
+          <root url="jar://$USER_HOME$/Libraries/AccessGoogle-lib/commons-logging-1.2.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -133,5 +133,6 @@
     </orderEntry>
     <orderEntry type="library" name="sdk" level="application" />
     <orderEntry type="library" name="api" level="application" />
+    <orderEntry type="library" name="Java EE 6-Java EE 6" level="project" />
   </component>
 </module>

@@ -11,7 +11,6 @@
     <title>Thay đổi mật khẩu</title>
     <%@ page contentType="text/html;charset=UTF-8" language="java" %>
     <meta charset="UTF-8">
-    <!-- Libs -->
     <script src="../js/input-validate.js"></script>
     <link rel="stylesheet" href="../lib/bootstrap-4.5.0-dist/css/bootstrap.min.css">
     <script src="../lib/bootstrap-4.5.0-dist/js/bootstrap.min.js"></script>
@@ -60,7 +59,7 @@
                 <input class="button1" type="button" id="button-continue" value="Xác Nhận" onclick="nonfitication()">
             </div>
             <div>
-                <input class="button1" type="button" id="button-cancel" value="Hủy" onclick="cancelNonfitication()" >
+                <input class="button1" type="button" id="button-cancel " value="Hủy" onclick="cancelNonfitication()" >
             </div>
 
 

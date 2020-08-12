@@ -11,7 +11,6 @@
     <%@ page contentType="text/html;charset=UTF-8" language="java" %>
     <meta charset="UTF-8">
     <title> Mã xác nhận </title>
-    <!-- Libs -->
     <script src="../js/input-validate.js"></script>
     <link rel="stylesheet" href="../lib/bootstrap-4.5.0-dist/css/bootstrap.min.css">
     <script src="../lib/bootstrap-4.5.0-dist/js/bootstrap.min.js"></script>

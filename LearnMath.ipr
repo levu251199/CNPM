@@ -11,20 +11,20 @@
           </element>
           <element id="directory" name="lib">
             <element id="library" level="project" name="lib" />
-            <element id="file-copy" path="$PROJECT_DIR$/../../../Libraries/mysql-connector-java-5.1.49/mysql-connector-java-5.1.49/mysql-connector-java-5.1.49.jar" />
+            <element id="file-copy" path="$USER_HOME$/Libraries/mysql-connector-java-5.1.49/mysql-connector-java-5.1.49/mysql-connector-java-5.1.49.jar" />
             <element id="library" level="project" name="javax.servlet:jstl:1.2" />
-            <element id="file-copy" path="$PROJECT_DIR$/../../../Libraries/lib/restfb-2.3.0.jar" />
-            <element id="file-copy" path="$PROJECT_DIR$/../../../Libraries/lib/httpcore-4.4.9.jar" />
-            <element id="file-copy" path="$PROJECT_DIR$/../../../Libraries/lib/httpclient-4.5.5.jar" />
-            <element id="file-copy" path="$PROJECT_DIR$/../../../Libraries/lib/gson-2.8.2.jar" />
-            <element id="file-copy" path="$PROJECT_DIR$/../../../Libraries/lib/fluent-hc-4.5.5.jar" />
-            <element id="file-copy" path="$PROJECT_DIR$/../../../Libraries/lib/commons-logging-1.2.jar" />
-            <element id="file-copy" path="$PROJECT_DIR$/../../../Libraries/lib/restfb-3.8.0.jar" />
-            <element id="file-copy" path="$PROJECT_DIR$/../../../Libraries/AccessGoogle-lib/httpcore-4.4.9.jar" />
-            <element id="file-copy" path="$PROJECT_DIR$/../../../Libraries/AccessGoogle-lib/httpclient-4.5.5.jar" />
-            <element id="file-copy" path="$PROJECT_DIR$/../../../Libraries/AccessGoogle-lib/gson-2.8.2.jar" />
-            <element id="file-copy" path="$PROJECT_DIR$/../../../Libraries/AccessGoogle-lib/fluent-hc-4.5.5.jar" />
-            <element id="file-copy" path="$PROJECT_DIR$/../../../Libraries/AccessGoogle-lib/commons-logging-1.2.jar" />
+            <element id="file-copy" path="$USER_HOME$/Libraries/lib/restfb-2.3.0.jar" />
+            <element id="file-copy" path="$USER_HOME$/Libraries/lib/httpcore-4.4.9.jar" />
+            <element id="file-copy" path="$USER_HOME$/Libraries/lib/httpclient-4.5.5.jar" />
+            <element id="file-copy" path="$USER_HOME$/Libraries/lib/gson-2.8.2.jar" />
+            <element id="file-copy" path="$USER_HOME$/Libraries/lib/fluent-hc-4.5.5.jar" />
+            <element id="file-copy" path="$USER_HOME$/Libraries/lib/commons-logging-1.2.jar" />
+            <element id="file-copy" path="$USER_HOME$/Libraries/lib/restfb-3.8.0.jar" />
+            <element id="file-copy" path="$USER_HOME$/Libraries/AccessGoogle-lib/httpcore-4.4.9.jar" />
+            <element id="file-copy" path="$USER_HOME$/Libraries/AccessGoogle-lib/httpclient-4.5.5.jar" />
+            <element id="file-copy" path="$USER_HOME$/Libraries/AccessGoogle-lib/gson-2.8.2.jar" />
+            <element id="file-copy" path="$USER_HOME$/Libraries/AccessGoogle-lib/fluent-hc-4.5.5.jar" />
+            <element id="file-copy" path="$USER_HOME$/Libraries/AccessGoogle-lib/commons-logging-1.2.jar" />
           </element>
         </element>
       </root>
@@ -35,9 +35,6 @@
       <option name="myName" value="Project Default" />
     </profile>
     <version value="1.0" />
-  </component>
-  <component name="JavaScriptLibraryMappings">
-    <file url="file://$PROJECT_DIR$" libraries="{api, bootstrap, jquery, jquery-3.2.1.slim, popper.js, sdk}" />
   </component>
   <component name="Palette2">
     <group name="Swing">
@@ -186,6 +183,20 @@
     </option>
   </component>
   <component name="libraryTable">
+    <library name="Java EE 6-Java EE 6">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/lib/javax.annotation.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/javax.jms.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/javax.ejb.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/javax.persistence.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/javax.resource.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/javax.servlet.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/javax.transaction.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/javax.servlet.jsp.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
     <library name="javax.servlet:jstl:1.2" type="repository">
       <properties maven-id="javax.servlet:jstl:1.2" />
       <CLASSES>
@@ -196,11 +207,11 @@
     </library>
     <library name="lib">
       <CLASSES>
-        <root url="file://$PROJECT_DIR$/../../../apache-tomcat-8.5.56/lib" />
+        <root url="file://$USER_HOME$/apache-tomcat-8.5.56/lib" />
       </CLASSES>
       <JAVADOC />
       <SOURCES />
-      <jarDirectory url="file://$PROJECT_DIR$/../../../apache-tomcat-8.5.56/lib" recursive="false" />
+      <jarDirectory url="file://$USER_HOME$/apache-tomcat-8.5.56/lib" recursive="false" />
     </library>
   </component>
 </project>
