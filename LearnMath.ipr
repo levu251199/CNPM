@@ -25,6 +25,18 @@
             <element id="file-copy" path="$USER_HOME$/Libraries/AccessGoogle-lib/gson-2.8.2.jar" />
             <element id="file-copy" path="$USER_HOME$/Libraries/AccessGoogle-lib/fluent-hc-4.5.5.jar" />
             <element id="file-copy" path="$USER_HOME$/Libraries/AccessGoogle-lib/commons-logging-1.2.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/../../../Libraries/AccessGoogle-lib/commons-logging-1.2.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/../../../Libraries/AccessGoogle-lib/fluent-hc-4.5.5.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/../../../Libraries/AccessGoogle-lib/gson-2.8.2.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/../../../Libraries/AccessGoogle-lib/httpclient-4.5.5.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/../../../Libraries/AccessGoogle-lib/httpcore-4.4.9.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/../../../Libraries/lib/restfb-3.8.0.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/../../../Libraries/lib/restfb-2.3.0.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/../../../Libraries/lib/httpcore-4.4.9.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/../../../Libraries/lib/httpclient-4.5.5.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/../../../Libraries/lib/gson-2.8.2.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/../../../Libraries/lib/fluent-hc-4.5.5.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/../../../Libraries/lib/commons-logging-1.2.jar" />
           </element>
         </element>
       </root>
@@ -177,6 +189,7 @@
   <component name="WebContextManager">
     <option name="state">
       <map>
+        <entry key="file://$PROJECT_DIR$/web/frontend/html/ChangePassword.jsp" value="file://$PROJECT_DIR$/web/frontend/html" />
         <entry key="file://$PROJECT_DIR$/web/frontend/html/login.jsp" value="file://$PROJECT_DIR$/web/frontend/html" />
         <entry key="file://$PROJECT_DIR$/web/include/header.jsp" value="file://$PROJECT_DIR$/web/include" />
       </map>
@@ -184,16 +197,7 @@
   </component>
   <component name="libraryTable">
     <library name="Java EE 6-Java EE 6">
-      <CLASSES>
-        <root url="jar://$PROJECT_DIR$/lib/javax.annotation.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/javax.jms.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/javax.ejb.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/javax.persistence.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/javax.resource.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/javax.servlet.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/javax.transaction.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/javax.servlet.jsp.jar!/" />
-      </CLASSES>
+      <CLASSES />
       <JAVADOC />
       <SOURCES />
     </library>
@@ -206,12 +210,9 @@
       <SOURCES />
     </library>
     <library name="lib">
-      <CLASSES>
-        <root url="file://$USER_HOME$/apache-tomcat-8.5.56/lib" />
-      </CLASSES>
+      <CLASSES />
       <JAVADOC />
       <SOURCES />
-      <jarDirectory url="file://$USER_HOME$/apache-tomcat-8.5.56/lib" recursive="false" />
     </library>
   </component>
 </project>

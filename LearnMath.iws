@@ -24,16 +24,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b386027-85b8-4c17-b7e0-461fd183e359" name="Default Changelist" comment="Fix some bugs">
+    <list default="true" id="3b386027-85b8-4c17-b7e0-461fd183e359" name="Default Changelist" comment="Update code">
+      <change beforePath="$PROJECT_DIR$/LearnMath.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/LearnMath.ipr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LearnMath.iws" beforeDir="false" afterPath="$PROJECT_DIR$/LearnMath.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnMath/backend/control/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnMath/backend/control/Login.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnMath/backend/dao/LoginDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnMath/backend/dao/LoginDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/backend/control/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backend/control/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/backend/dao/LoginDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backend/dao/LoginDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/backend/model/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backend/model/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/frontend/html/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/frontend/html/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/include/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/include/header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnMath/backend/control/Login.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnMath/backend/dao/LoginDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnMath/backend/model/Account.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnMath/libs/ConnectionDB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnMath/libs/ServletControl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnMath/libs/Utils.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,10 +80,10 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/frontend/html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Libraries/lib/commons-logging-1.2.jar" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
@@ -230,7 +229,7 @@
       <workItem from="1596864332791" duration="6786000" />
       <workItem from="1596939493901" duration="6050000" />
       <workItem from="1596955997304" duration="4555000" />
-      <workItem from="1597240047043" duration="286000" />
+      <workItem from="1597240047043" duration="847000" />
     </task>
     <task id="LOCAL-00001" summary="Fix some minor stuffs">
       <created>1596036362382</created>
@@ -274,7 +273,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597240269608</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Update code">
+      <created>1597240427309</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1597240427309</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,7 +302,8 @@
     <MESSAGE value="Fix some minor stuffs" />
     <MESSAGE value="Validate and fix some bugs" />
     <MESSAGE value="Fix some bugs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix some bugs" />
+    <MESSAGE value="Update code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update code" />
   </component>
   <component name="WindowStateProjectService">
     <state x="163" y="0" key="#Project_Structure" timestamp="1596545320676">
@@ -311,10 +318,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="461" y="246" key="#Tomcat_Server/0.0.1366.738@0.0.1366.738" timestamp="1593839931769" />
-    <state x="137" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596942510039">
+    <state x="137" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597240780655">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="137" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1596942510039" />
+    <state x="137" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1597240780655" />
     <state x="488" y="84" key="#com.intellij.ide.util.MemberChooser" timestamp="1596955257696">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -323,10 +330,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="313" y="57" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1366.738@0.0.1366.738" timestamp="1593839345873" />
-    <state x="466" y="0" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1596437192717">
+    <state x="466" y="0" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1597240758338">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="466" y="0" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1366.738@0.0.1366.738" timestamp="1596437192717" />
+    <state x="466" y="0" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1366.738@0.0.1366.738" timestamp="1597240758338" />
     <state x="363" y="104" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1596034916279">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -335,18 +342,18 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="448" y="258" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.738@0.0.1366.738" timestamp="1596613158850" />
-    <state x="413" y="115" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596800356822">
+    <state x="413" y="115" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1597240371380">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="413" y="115" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738@0.0.1366.738" timestamp="1596800356822" />
-    <state x="366" y="123" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1596607205626">
+    <state x="413" y="115" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738@0.0.1366.738" timestamp="1597240371380" />
+    <state x="366" y="123" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1597240861595">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="366" y="123" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1366.738@0.0.1366.738" timestamp="1596607205626" />
-    <state x="389" y="110" key="FileChooserDialogImpl" timestamp="1596607217727">
+    <state x="366" y="123" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1366.738@0.0.1366.738" timestamp="1597240861595" />
+    <state x="389" y="110" key="FileChooserDialogImpl" timestamp="1597240885711">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="389" y="110" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1596607217727" />
+    <state x="389" y="110" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1597240885711" />
     <state width="1275" height="23" key="GridCell.Tab.0.bottom" timestamp="1596962252187">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -427,22 +434,22 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1275" height="200" key="GridCell.Tab.4.right/0.0.1366.738@0.0.1366.738" timestamp="1596437296862" />
-    <state x="116" y="0" key="SettingsEditor" timestamp="1596636484404">
+    <state x="116" y="0" key="SettingsEditor" timestamp="1597240907164">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="116" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1596636484404" />
-    <state x="275" y="101" key="Vcs.Push.Dialog.v2" timestamp="1596866030880">
+    <state x="116" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1597240907164" />
+    <state x="275" y="101" key="Vcs.Push.Dialog.v2" timestamp="1597240432181">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="275" y="101" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1596866030880" />
+    <state x="275" y="101" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1597240432181" />
     <state x="340" y="262" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1596437176057">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="340" y="262" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1366.738@0.0.1366.738" timestamp="1596437176057" />
-    <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596800368222">
+    <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597240374364">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.738@0.0.1366.738" timestamp="1596800368222" />
+    <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.738@0.0.1366.738" timestamp="1597240374364" />
     <state x="413" y="69" key="extract.method.dialog" timestamp="1596955518717">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
