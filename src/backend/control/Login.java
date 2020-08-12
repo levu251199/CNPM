@@ -29,13 +29,13 @@ public class Login extends HttpServlet {
         // Các biến lấy data từ phía jsp
         String username = request.getParameter("id-input");
         String pass = request.getParameter("pass-input");
-        String action = request.getParameter("action");
+        String action = request.getParameter("action"); // Biến để điều hướng trang web
         String captcha = request.getParameter("captcha");
         String recaptcha = request.getParameter("re-captcha");
         String error = null;
         Random rd = new Random();
         HttpSession ss = request.getSession();
-        Account account; // Biến để điều hướng trang web
+        Account account;
         try {
             if (action.equals("login")) { // Đăng nhập
                 if ((account = LoginDAO.checkLogin(username, pass)) != null) { // Kiểm tra đăng nhập

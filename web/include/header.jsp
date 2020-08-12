@@ -1,6 +1,7 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ page import="libs.Utils" %>
-<%@ page import="backend.model.Account" %><%--
+<%@ page import="backend.model.Account" %>
+<%@ page import="backend.model.SocialAccount" %><%--
   Created by IntelliJ IDEA.
   User: LeVu
   Date: 7/26/2020
@@ -49,12 +50,19 @@
         </div>
         <!-- Login + SignUp -->
         <%Account acc = (Account) request.getSession().getAttribute("account");%>
-        <%if (acc == null) { %>
+        <%SocialAccount socialAcc = (SocialAccount) request.getSession().getAttribute("social-account");%>
+        <%if (acc == null && socialAcc == null) { %>
         <div id="account-section">
             <a style="text-decoration: none" class="account-btn btn btn-link" id="sign-in"
                href="frontend/html/Login">Đăng nhập</a>
             <a style="text-decoration: none" class="account-btn btn btn-primary" id="sign-up"
                href="<c:url value="/frontend/html/register.jsp"/>">Đăng ký</a>
+        </div>
+        <%} else if (socialAcc != null && acc == null){%>
+        <div id="account-section">
+            <span>Xin chào, <%=socialAcc.getName()%></span>
+            <a style="text-decoration: none" class="account-btn btn btn-link"
+               href="frontend/html/Login?action=logout">Đăng xuất</a>
         </div>
         <%} else {%>
         <div id="account-section">

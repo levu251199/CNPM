@@ -29,8 +29,8 @@
     <jsp:include page="include/header.jsp"></jsp:include>
 
     <!-- Content -->
-    <!-- Section 1 -->
     <div id="content">
+        <!-- Section 1 -->
         <div class="card text-center bg-light">
             <div class="card-body row" style="background: #d6edf6">
                 <img class="col-5" src="frontend/img/promoStat.png" alt="info-picture">

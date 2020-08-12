@@ -6,7 +6,6 @@ public class Account {
     public int admin;
 
     public Account() {
-
     }
 
     public String getUsername() {

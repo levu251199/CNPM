@@ -102,6 +102,7 @@
                 <input type="checkbox" name="status" id="status">
                 <label for="status" id="status-text">Duy trì đăng nhập</label>
             </div>
+            <div><a href="ChangePassword.jsp">Quên mật khẩu? Nhân vào đây</a></div>
 
             <!-- Captcha -->
             <%
